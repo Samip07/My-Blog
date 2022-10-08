@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tiro+Bangla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&family=Sacramento&display=swap');
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Tiro Bangla', serif; */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+
+
+
+.top-container{
+    background-color: #e0ebe8;
+    height:max-content;
+}
+.top-container .top-cloud{
+    position:relative;
+    left:220px;
+    
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin:1rem;
+    color: #66BFBF;
+}
+.pro{
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top:0;
+    font-weight: normal;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+.top-container .bottom-cloud{
+      position:absolute;
+      top:300px;
+}
+hr{
+    width:50px;
+    border-top:dotted 7px;
+    color: #d2d2d2;
+}
+
+
+.middle-container{
+    height: max-content;
+    width:80%;
+    margin:auto;
+}
+.my-photo{
+    height:200px;
+    margin: 30px 0 0 0;
+}
+.computer{
+    height:100px;
+}
+.chillies{
+    height:100px;
+}
+.skill-row{
+    width:50%;
+    margin:auto auto 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.skill-row .skill-content{
+    margin:0 2rem;
+}
+.skill-row .skill-content h3{
+    
+    margin-top:0;
+    margin-bottom:0;
+}
+.skill-row .skill-content p{
+    margin-top:7px;
+}
+.btn{
+    background: #34d9d3;
+    background-image: -webkit-linear-gradient(top, #34d9d3, #2980b9);
+    background-image: -moz-linear-gradient(top, #34d9d3, #2980b9);
+    background-image: -ms-linear-gradient(top, #34d9d3, #2980b9);
+    background-image: -o-linear-gradient(top, #34d9d3, #2980b9);
+    background-image: linear-gradient(to bottom, #34d9d3, #2980b9);
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    border-radius:10px;
+    display: inline-block;
+    margin:20px;
+    font-weight: bold;
+}
+
+.bottom-container{
+    height: max-content;
+    margin-top:3rem;
+    background-color: #66BFBF;
+    height:4rem;
+    padding: 35px 0;
+}
+.bottom-container a{
+    color:#11999E;
+    text-decoration: none;
+    font-weight: bold;
+    margin:0 35px; /*NO MArgin top as it is inline elem*/
+}
+.bottom-container p{
+    color:white;
+    margin: 20px 0;
+}
